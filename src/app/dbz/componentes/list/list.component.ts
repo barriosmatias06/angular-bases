@@ -23,7 +23,7 @@ export class ListComponent {
 
     if(!id) return;
 
-    console.log({id})
+    // console.log({id})
   this.onDeleted.emit(id);
   }
 
